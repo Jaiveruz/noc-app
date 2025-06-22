@@ -18,3 +18,5 @@ MAILER_SECRET_KEY=
 PROD=false
 
 ```
+3. Y luego ejecutar el comando ```npm i```
+4. Ejecutar ```npm run dev```
