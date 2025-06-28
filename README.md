@@ -7,16 +7,10 @@ El objetivo es crear una serie de tareas usando Arquitectura Limpia con TypeScri
 # Dev
 1. Clonar el archivo .env.template a .env
 2. Configurar las variables de entorno
+3. Ejecutar el comando ```npm i```
+4. Levantar las bases de datos con el comando 
+    ```
+    docker compose up -d
 
-```
-
-PORT=
-
-MAILER_EMAIL=
-MAILER_SECRET_KEY=
-
-PROD=false
-
-```
-3. Y luego ejecutar el comando ```npm i```
-4. Ejecutar ```npm run dev```
+    ```
+5. Ejecutar ```npm run dev```
