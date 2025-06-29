@@ -1,7 +1,6 @@
 import { Server } from "./presentation/server"
 import { LogModel, MongoDatabase } from './data/mongo';
 import { envs } from "./config/plugins/envs.plugins";
-import { PrismaClient } from "./generated/prisma";
 
 (  async() => {
     main();
